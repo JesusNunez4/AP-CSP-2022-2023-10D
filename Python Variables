@@ -1,0 +1,79 @@
+'''
+# Comments are green and used to explain code they start with #
+#Python has no comment for declaring values, a varible is created the moment you 1st assign a value to it
+x = 5
+y = "John"
+print (x)
+print (y)
+
+#Varibles have types
+x = 4 # x is of type int
+x = "Sally" # x is now a type of str
+
+#Casting
+#Casting is to specify the data type of a variable
+x = str (3) # x will be string or word '3'
+y = int (3) # y will be number 3 
+z = float (3) # z will be 3.0
+
+#How to print a type
+x = (5)
+y = 'John'
+print (type (x))
+print (type (y))
+# Note:" " is the same as '' so "x" is the same 'x'
+# Case sensitivity 
+a = 4
+A = 'Sally'
+#A will NOT overwrite a
+
+#NAMING VARIBLES:
+#1 A variable name must start witha letter or a underscore 
+
+#2 Avilable name cannot start with a number 
+
+#3 A varible name is case sensitive
+myvar = 'John'
+my_var = 'John'
+_myvar = 'John'
+myVar = 'John'
+MYVAR = "John"
+myvar2 = 'John'
+#ILLEGAL
+2myvar = 'John'
+my-var = 'John'
+my var = 'John'
+
+#Assign Mutiple values
+x,y,z = "Orange", "Banana", "Cherry"
+print (x)
+print (y)
+print (z)
+#Assign 1 value to multiple varible 
+x = y = z = 'Orange'
+print (x)
+print (y)
+print (z)
+'''
+
+#Random Numbers
+import random
+print (random.randrange(1,10))
+
+#Concatenation 
+a = 'Hello'
+b = 'Patricia'
+c = a + ' ' + b 
+print (c)
+
+# String Format
+age = " 36"
+txt = 'My name is Patricia, I am' + age 
+print (txt)
+
+#Escape characters
+#To insert characters that are illegal in a string, use an escape character 
+#In this case the escaped character is / 
+#text "We are fabulous" Unicorn "from AmazingLand"
+text  = 'We are faboulous\'Unicorns\'from amazing land'
+print (text)
